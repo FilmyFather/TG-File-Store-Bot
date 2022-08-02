@@ -32,11 +32,11 @@ async def help_cb(c, m):
     # creating buttons
     buttons = [
         [
-            InlineKeyboardButton('Home 🏕', callback_data='home'),
-            InlineKeyboardButton('About 📕', callback_data='about')
+            InlineKeyboardButton('𝙃𝙤𝙢𝙚 🏕', callback_data='home'),
+            InlineKeyboardButton('𝘼𝙗𝙤𝙪𝙩 📕', callback_data='about')
         ],
         [
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('𝘾𝙡𝙤𝙨𝙚 🔐', callback_data='close')
         ]
     ]
 
@@ -62,29 +62,29 @@ async def about_cb(c, m):
     # about text
     about_text = f"""--**My Details:**--
 
-🤖 𝐌𝐲 𝐍𝐚𝐦𝐞: {bot.mention(style='md')}
+🤖 𝐌𝐲 𝐍𝐚𝐦𝐞: [𝐅𝐢𝐥𝐦𝐲𝐅𝐚𝐭𝐡𝐞𝐫 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐁𝐨𝐭](https://t.me/FILMYFATHER_FileStoreBot)
     
-📝 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞: [Python 3](https://www.python.org/)
+📝 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞: [𝐏𝐲𝐭𝐡𝐨𝐧 𝟑](https://www.python.org/)
 
-🧰 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤: [Pyrogram](https://github.com/pyrogram/pyrogram)
+🧰 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤: [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦](https://github.com/pyrogram/pyrogram)
 
-👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: {owner.mention(style='md')}
+👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: [𝐘𝐮𝐯𝐫𝐚𝐣](https://t.me/yuvi_4502)
 
-📢 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: [NS BOT UPDATES](https://t.me/Ns_bot_updates)
+📢 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: [𝐅𝐢𝐥𝐦𝐲𝐅𝐚𝐭𝐡𝐞𝐫 𝐁𝐨𝐭 𝐋𝐢𝐬𝐭](https://FilmyFather_BotList)
 
-👥 𝐆𝐫𝐨𝐮𝐩: [Ns BOT SUPPORT](https://t.me/Ns_Bot_supporters)
+👥 𝐆𝐫𝐨𝐮𝐩: [𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐢𝐧𝐠𝐇𝐮𝐁](https://t.me/RequestingHuB)
 
-🌐𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞: [Press Me 🥰](https://github.com/Ns-Bots/TG-File-Store)
+🌐𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞: [𝐏𝐫𝐞𝐬𝐬 𝐌𝐞 🥰](https://t.me/Tharak_69)
 """
 
     # creating buttons
     buttons = [
         [
-            InlineKeyboardButton('Home 🏕', callback_data='home'),
-            InlineKeyboardButton('Help 💡', callback_data='help')
+            InlineKeyboardButton('𝙃𝙤𝙢𝙚 🏕', callback_data='home'),
+            InlineKeyboardButton('𝙃𝙚𝙡𝙥 💡', callback_data='help')
         ],
         [
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('𝘾𝙡𝙤𝙨𝙚 🔐', callback_data='close')
         ]
     ]
 
