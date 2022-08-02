@@ -7,10 +7,10 @@
     "Store",
     "Files"
   ],
-  "logo": "https://telegra.ph/file/d6c56d2ab6d3815ff74aa.jpg",
-  "success_url": "https://telegram.dog/FILMYFATHER_FileStoreBot",
-  "website": "https://github.com/FilmyFather/TG-File-Store-Bot",
-  "repository": "https://github.com/FilmyFather/TG-File-Store-Bot",
+  "logo": "https://telegra.ph/file/bdd3352951be090a56590.jpg",
+  "success_url": "https://telegram.dog/filestore_Nsbot",
+  "website": "https://github.com/Ns-Bots/TG-File-Store",
+  "repository": "https://github.com/Ns-Bots/TG-File-Store",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -22,33 +22,33 @@
     },
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "7588344"
+      "value": ""
     },
     "DB_CHANNEL_ID": {
       "description": "give me the telegram channel ID here (better this should be private channel)",
-      "value": "-1001514239129"
+      "value": ""
     },
     "UPDATE_CHANNEL": {
       "description": "Your bot updates channel like Ns_bot_updates (username without @ for forcesub). (Leave empty it you don't want to add)",
-      "value": "FilmyFather_BotList",
-      "required": 
+      "value": "",
+      "required": false
     },
     "OWNER_ID": {
       "description": "give your telegram user id here",
-      "value": "1564152071"
+      "value": ""
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "6ade175bcf8ea4981e3153ef48fe07f5"
+      "value": ""
     },
     "AUTH_USERS": {
       "description": "Add authorized userids if u are using IS_PRIVATE",
-      "value": "1564152071",
+      "value": "",
       "required": false
     },
     "IS_PRIVATE": {
       "description": "Add True if you want to use as Private",
-      "value": "False",
+      "value": "",
       "required": false
     }
   },
